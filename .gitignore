@@ -1,0 +1,19 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/app/build
+captures
+.externalNativeBuild
+.cxx
+
+# Assets: model is large (>500MB), distributed via Releases
+*.gguf
+app/src/main/assets/*.gguf
+
+# Output APKs
+*.apk
+*.aab
+dist/

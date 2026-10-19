@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Газетный лист -->
+    <path
+        android:fillColor="#F1EADC"
+        android:pathData="M32,26 h44 a4,4 0 0 1 4,4 v48 a4,4 0 0 1 -4,4 h-44 a4,4 0 0 1 -4,-4 v-48 a4,4 0 0 1 4,-4 z" />
+    <!-- Колонтитул -->
+    <path
+        android:fillColor="#E23A2E"
+        android:pathData="M36,33 h18 v3 h-18 z" />
+    <!-- Строки текста -->
+    <path
+        android:fillColor="#16130E"
+        android:fillAlpha="0.85"
+        android:pathData="M36,42 h36 v2.5 h-36 z" />
+    <path
+        android:fillColor="#16130E"
+        android:fillAlpha="0.6"
+        android:pathData="M36,48 h36 v2 h-36 z" />
+    <path
+        android:fillColor="#16130E"
+        android:fillAlpha="0.6"
+        android:pathData="M36,53 h28 v2 h-28 z" />
+    <!-- Красная точка-лого -->
+    <path
+        android:fillColor="#E23A2E"
+        android:pathData="M70,62 m-8,0 a8,8 0 1,1 0,16 a8,8 0 1,1 0,-16" />
+</vector>
